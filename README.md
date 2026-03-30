@@ -7,7 +7,6 @@ Ton objectif est de diagnostiquer et de corriger les 5 points de friction listé
 
 1.  Symptôme : L'application NestJS crash immédiatement au démarrage avec une erreur d'authentification ou de timeout MongoDB.
     Contexte PM : Nous avons migré vers MongoDB Atlas pour la scalabilité, mais le serveur semble ne pas "voir" la base de données.
-    URI Base de donnee : mongodb+srv://CheikhM:Mongo123@cluster0.e8pz3ms.mongodb.net/task-manager?retryWrites=true&w=majority
 
 2.  Symptôme : L'accès à certaines routes de l'API renvoie systématiquement une erreur 403 Forbidden.
 
