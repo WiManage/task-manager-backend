@@ -28,3 +28,6 @@ Backend : Les schémas Mongoose doivent rester cohérents.
 Communication : Une fois corrigé, fournis un bref récapitulatif des corrections effectuées pour chaque point.
 
 Bonne chance, on attend tes correctifs pour merger sur la branche main !
+
+Backend : https://github.com/WiManage/task-manager-backend.git
+Frontend : https://github.com/WiManage/task-manager-dashboard.git
