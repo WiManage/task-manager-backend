@@ -28,7 +28,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
     AppService,
     {
       provide: APP_GUARD,
-      useClass: IpGuard,
+      useFactory: (configService: ConfigService) => new IpGuard(configService),
+      inject: [ConfigService],
     },
   ],
 })
